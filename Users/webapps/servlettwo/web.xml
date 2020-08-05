@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>servlettwo</servlet-name>
+        <servlet-class>com.yale.servlettwo.AppServletTwo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlettwo</servlet-name>
+        <url-pattern>/servlettwo</url-pattern>
+    </servlet-mapping>
+</web-app>

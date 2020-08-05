@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>myServlet</servlet-name>
+        <servlet-class>com.yale.minicat.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myServlet</servlet-name>
+        <url-pattern>/yale</url-pattern>
+    </servlet-mapping>
+</web-app>
